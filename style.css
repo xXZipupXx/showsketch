@@ -1,0 +1,36 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    background-color: White;
+    color: Navy;
+}
+#showsketch{
+    float:right;
+}
+p{
+    padding-top: 15px;
+    font-size: 20px;
+}
+Canvas{
+    border:3px dotted;
+    border-radius: 12px;
+    animation-name:sketch;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+@keyframes sketch{
+    from{ box-shadow:1px 1px 30px Navy;
+    }to {
+        box-shadow:1px 1px 30px maroon;
+    }
+}
+h2{
+    font-size: 40px;
+}
+#Timer{
+    float:right;
+}
+#score{
+    float:left;
+}
